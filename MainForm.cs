@@ -1675,7 +1675,6 @@ namespace ToolsExample
 	        while ((index = myRtb.Text.IndexOf(word, startIndex, StringComparison.Ordinal)) != -1)
 	        {
 	            myRtb.Select(index, word.Length);
-	            myRtb.SelectionColor = color;
 	            myRtb.SelectionFont = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold);
 	            startIndex = index + word.Length;
             }
